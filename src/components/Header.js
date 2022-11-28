@@ -41,7 +41,7 @@ const {data:session, status} = useSession();
                 <div className='text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap'>
                     <div onClick={(status === 'authenticated') ? signOut : signIn} className='cursor-pointer link'>
                         <p className='hover:underline'>
-                            {session?.user ? session.user.name : "Sign In"}
+                            {session?.user ?`Hello, ${session.user.name}` : "Sign In"}
                         </p>
                         <p className='font-extrabold md:text-sm'>Account & Lists</p>
                     </div>
