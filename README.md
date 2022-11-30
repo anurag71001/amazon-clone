@@ -3,7 +3,7 @@ This an amazing clone of Amazon known as Amazon 2.0. It involves following funct
 -> Add to cart or Remove from cart
 -> Full payment functionality.
 
-It is created using Next.js.
+It is created using Next.js(framework of Javascript).
 Technologies involved in this project :-
 -> NEXT.js
 -> NextAuth for Authentication
