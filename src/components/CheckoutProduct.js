@@ -76,7 +76,6 @@ function CheckoutProduct({
                 <button className='button' onClick={removeItemFromBasket}>Remove from Cart</button>
             </div>
         </div>
-    )
-}
+    )}
 
 export default CheckoutProduct
